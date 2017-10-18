@@ -1,0 +1,159 @@
+/*!
+ * Start Bootstrap - Portfolio Item HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+@import 'https://fonts.googleapis.com/css?family=Oswald:300,400,700&subset=latin-ext';
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,500,500italic,400italic,700,700italic,900,900italic);
+
+body {
+     font-family: 'Oswald', sans-serif;
+    background-color: #fff;
+background-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPSc2JyBoZWlnaHQ9JzEyJyB2aWV3Qm94PScwIDAgNSAxMCc+Cgk8cmVjdCB3aWR0aD0nMTEwJScgeD0nLTUlJyB5PSctNSUnIGhlaWdodD0nMTEwJScgZmlsbD0nI2ZmZicvPgoJPGxpbmUgeDE9Jy0yJyB5MT0nMScgeDI9JzcnIHkyPScxMCcgc3Ryb2tlPScjZGRkJyBzdHJva2Utd2lkdGg9Jy41Jy8+Cgk8bGluZSB4MT0nLTInIHkxPSc2JyB4Mj0nNycgeTI9JzE1JyBzdHJva2U9JyNkZGQnIHN0cm9rZS13aWR0aD0nLjUnLz4KCTxsaW5lIHgxPSctMicgeTE9Jy00JyB4Mj0nNycgeTI9JzUnIHN0cm9rZT0nI2RkZCcgc3Ryb2tlLXdpZHRoPScuNScvPgo8L3N2Zz4=);
+}
+
+.portfolio-item {
+    margin-bottom: 25px;
+}
+
+footer {
+    margin: 50px 0;
+}
+
+.bg_nav {
+    background-color: #0BAA4B;
+    border: #168E45;
+}
+
+.navbar-brand {
+    font-size: 30px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #ffffff;
+}
+
+#fundo_box {
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin-bottom:  20px;
+}
+#fundo_box2 {
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin-bottom: 5px;
+    margin-top: 25px;
+}
+#fundo_topo {
+    background-color: #20404c;
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+#fundo_subtopo {
+    background-color: #18b298;
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding-top: 0px;
+    padding-bottom: 5px;
+    text-align: center;
+    font-size: 14px;
+}
+
+#fundo_itens {
+    background-color: #18b298;
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding-top: 0px;
+    padding-bottom: 5px;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    margin-top: 20px;
+}
+
+#fundo_mapa {
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin-top: 30px;
+    text-align: center;
+}
+
+#fundo_itens h2 {
+      font-size: 30px;
+    color: #fff;
+}
+
+
+#fundo_detalhes {
+    background-color: #fff;
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+#fundo_detalhes2 {
+    background-color: #fff;
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+#fundo_itensp {
+    background-color: #fff;
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding: 0px;
+    margin-bottom: 20px;
+}
+#fundo_km {
+    background-color: #20404c;
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding: 5px;
+    margin-bottom:  20px;
+}
+
+#fundo_subtopo h2 {
+    font-size: 20px;
+    color: #fff;
+}
+#espaco {
+    height: 40px;
+}
+
+.fundo_box_topo {
+    margin-top:  40px;
+}
+
+.verdeescuro {
+    color:#20404c;
+    font-weight:  700;
+    font-size: 24px;
+}
+.verdeclaro {
+    color:#18b298;
+    font-size: 18px;
+}
+.branco {
+    color:#fff;
+}
+.cinza {
+    color:#7d7d7d;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}

@@ -1,0 +1,162 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic);
+@import url(http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic);
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+body {
+	
+/** To edit this background, follow this link:
+http://svgeneration.com/generate/Galaxy?background=00e1ff&density=0.6&star-color=ffffff&
+*/
+background-color: #B0D236 !important;
+
+
+}
+
+#faixameio {
+	background-color: #FFF;
+	height: auto;
+	width: 100%;
+	margin:auto;
+	margin-top: 120px;
+	position: relative;
+	border-top: solid 7px #E41E25;
+	border-bottom: solid 7px #E41E25;
+}
+
+
+#titulo {
+	height: auto;
+	width: 100%;
+	margin:auto;
+	position: relative;
+	text-align:center;
+	margin-top: 20px;
+	margin-bottom: 30px
+}
+#logo {
+	height: auto;
+	width: auto;
+	margin:auto;
+	position: relative;
+	text-align: right;
+	padding-left: 60px;
+}
+#conteudo {
+	height: auto;
+	width: 100%;
+	margin:auto;
+	position: relative;
+	text-align:left;
+	margin-bottom:50px;
+}
+.tit {
+	font-family: 'Lato', sans-serif;
+	font-weight:300;
+	font-size:80px;
+	text-align:center;
+	color:#525e66;
+}
+.textotit {
+	font-family: 'Lato', sans-serif;
+	font-weight:100;
+	font-size:50px;
+	text-align:center;
+	color:#525e66;
+}
+.textos {
+	font-family: 'Lora', serif;
+	font-weight:400;
+	font-size:30px;
+	color:#525e66;
+}
+.tel{
+	color: #f8b252;
+}
+.email{
+	color: #26aae1;
+}
+.face{
+	color: #191347;
+}
+.site{
+	color: #e6354b;
+}
+.wp{
+	color: #009345;
+}
+.pin{
+	color: #d01e15;
+}
+
+
+
+.link:link {
+	font-family: 'Lora', serif;
+	color: #525e66;
+	text-decoration:none;
+}
+.link:visited {
+	font-family: 'Lora', serif;
+	color: #525e66;
+	text-decoration:none;
+}
+.link:hover {
+	font-family: 'Lora', serif;
+	color: #00e1ff;
+	text-decoration:none;
+}
+.link:active {
+	font-family: 'Lora', serif;
+	color: #525e66;
+	text-decoration:none;
+}
+
+
+@media screen and  (max-width: 768px) {
+ .tit {
+	font-family: 'Lato', sans-serif;
+	font-weight:300;
+	font-size:30px;
+	text-align:center;
+	color:#525e66;
+}
+.textotit {
+	font-family: 'Lato', sans-serif;
+	font-weight:100;
+	font-size:10px;
+	text-align:center;
+	color:#525e66;
+}
+#logo {
+	height: auto;
+	width: auto;
+	margin:auto;
+	position: relative;
+	padding-left: 0px;
+}
+
+#faixameio {
+	background-color: #FFF;
+	height: auto;
+	width: 100%;
+	margin:auto;
+	margin-top: 30px;
+	position: relative;
+	border-top: solid 7px #ff785b;
+	border-bottom: solid 7px #ff785b;
+}
+#conteudo {
+	height: auto;
+	width: 100%;
+	margin:auto;
+	position: relative;
+	text-align:center;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+}
+
+

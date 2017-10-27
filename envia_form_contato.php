@@ -43,8 +43,8 @@ $mail->IsHTML(true); // Define que o e-mail será enviado como HTML
  
 // Define a mensagem (Texto e Assunto)
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-$mail->Subject  = "Formulário da Página Criação de Sites"; // Assunto da mensagem
-$mail->Body = 'Formulário da Página Criação de Sites
+$mail->Subject  = "Formulário da página Contato"; // Assunto da mensagem
+$mail->Body = 'Formulário da página Contato
 <p><b>Nome:</b> '.$nome.'
 <p><b>E-mail:</b> '.$email.'
 <p><b>Telefone:</b> '.$telefone.'

@@ -42,7 +42,7 @@
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
     <!-- analytics -->
-
+    <script src='https://www.google.com/recaptcha/api.js'></script>
 
 
 </head>

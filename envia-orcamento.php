@@ -1,8 +1,16 @@
 <?php
  
 // Inclui o arquivo class.phpmailer.php localizado na pasta phpmailer
+date_default_timezone_set('America/Araguaina');
 require("class/class.phpmailer.php");
- 
+
+$nome = $_POST['nome'];
+$email = $_POST['email'];
+$telefone = $_POST['telefone'];
+$assunto = $_POST['assunto'];
+$msg = $_POST['msg'];
+
+
 // Inicia a classe PHPMailer
 $mail = new PHPMailer();
 $mail->CharSet  = "UTF-8"; 
@@ -25,7 +33,7 @@ $mail->FromName = "Formulário de Orçamento"; // Seu nome
  
 // Define os destinatário(s)
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-$mail->AddAddress('contato@rnj.com.br');
+$mail->AddAddress('ricardo@rnj.com.brm');
 //$mail->AddCC('ciclano@site.net', 'Ciclano'); // Copia
 //$mail->AddBCC('fulano@dominio.com.br', 'Fulano da Silva'); // Cópia Oculta
  
@@ -41,14 +49,14 @@ $mail->Body = 'Formulário da Página Orçamento
 <p><b>Nome:</b> '.$nome.'
 <p><b>E-mail:</b> '.$email.'
 <p><b>Telefone:</b> '.$telefone.'
-<p><b>Assunto:</b> '.assunto.'
+<p><b>Assunto:</b> '.$assunto.'
 <p><b>Mensagem</b> '.$msg.'
 <hr>';
 $mail->AltBody = 'Formulário da Página Orçamento \r\n 
 <p><b>Nome:</b> '.$nome.'
 <p><b>E-mail:</b> '.$email.'
 <p><b>Telefone:</b> '.$telefone.'
-<p><b>Assunto:</b> '.assunto.'
+<p><b>Assunto:</b> '.$assunto.'
 <p><b>Mensagem</b> '.$msg.'
 <hr>';
  

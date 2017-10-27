@@ -33,21 +33,20 @@ $('.map-container')
 				<div id="fundo_formulario_sites" class="card-1">
 					<h3 class="azul_01 centralizado">Envie sua mensagem por aqui!</h3><br>
 					
-					<form name="contato" method="post" action="envia_form_contato.php" target="_parent">
+					<form name="contato" method="post" action="contato-test.php" target="_parent">
 						<div class="form-group">
-							<input type="text" class="input_site" id="nome" name="nome" placeholder="Nome*" required>
+							<input type="text" class="input_site" id="txt_nome" name="t_nome" placeholder="Nome*" required>
 						</div>
 						<div class="form-group">
-							<input type="email" class="input_site" id="email" name="email" placeholder="E-mail*" required>
+							<input type="email" class="input_site" id="txt_email" name="t_email" placeholder="E-mail*" required>
 						</div>
 						<div class="form-group">
-							<input type="text" class="input_site" id="telefone" name="telefone" placeholder="Telefone*" required>
-						</div>
-
-						<div class="form-group">
-							<textarea name="msg" id="msg" class="input_site_msg" placeholder="Mensagem*" required></textarea>
+							<input type="text" class="input_site" id="txt_telefone" name="t_telefone" placeholder="Telefone*" required>
 						</div>
 
+						<div class="form-group">
+							<textarea id="txt_msg" class="input_site_msg"  name="t_msg" placeholder="Mensagem*" required></textarea>
+						</div>
 						<button type="submit" class="btn_enviar">ENVIAR</button>
 				</form>
 				</div>
